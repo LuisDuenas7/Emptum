@@ -1,0 +1,776 @@
+html{
+ /* background-color: black; */
+ text-align: center;
+ scroll-behavior: smooth;
+ transition: 0.8s;
+
+}
+
+a{ 
+    text-decoration: none;
+    color: rgb(236, 233, 233);
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight:20;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(209, 198, 34);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 25px;
+    font-weight:400;
+    
+}
+
+input {
+    border-radius: 30px;
+
+    border: none;
+    border: 1px solid rgba(194, 190, 190, 0.435);
+    text-align: center;
+    font-size: medium;
+    color: #666;
+
+      
+}
+
+
+.input-top {
+    border-radius: 30px;
+    width: 280px;
+    height: 35px;
+    border: none;
+    border: 1px solid rgba(194, 190, 190, 0.435);
+    text-align: center;
+    font-size: medium;
+    margin-left: 250px;
+      
+}
+
+/*==================Navbar=================*/
+ .box-nav >*{
+    display: flex;
+    position: fixed;
+    padding: 20px;
+    height: 6vh;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    margin-top: 0;
+    z-index: 100;
+    background-color: rgba(15, 14, 17, 0.687);
+    top: 0;
+    border-bottom: 1px solid rgba(142, 133, 133, 0.204);
+    left: 0;
+ }
+
+ .top-logo{
+     width: 11%;
+     background-color: white;
+     border-radius: 35px;
+     margin-left: 30px;
+     padding: 10px;
+ }
+
+ .top-logo:hover{
+    width: 11%;
+    background-color:bisque;
+    border-radius: 35px;
+    margin-left: 30px;
+    padding: 10px;
+}
+  .top-car{
+     width: 10%;
+     display: flex;
+     /* position:relative; */
+ }
+
+
+
+
+ /*=============MainBox====================*/
+
+.main-box{
+    background-color: rgb(233, 232, 231);
+    width: 100%;
+    height: 250vh;
+    left:0;
+    margin-top: 10vh;
+    display:flex;
+    top:10vh;
+}
+
+
+
+/*=====================Home=======================================*/
+.home-box{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+.box-text1{
+    width:100%;
+    height: 40px;
+     display: flex; 
+     position:absolute;
+     align-items: center;
+     justify-content: center;  
+     margin-top:45px ;
+     background-color: rgba(186, 183, 179, 0.15);
+     
+     }
+
+.logo-size{
+    width:6%;
+    box-shadow: 3px 0.5px 12px 3px gray;
+    border-radius: 100%;
+    border: transparent;
+}
+
+
+.box-top-icon{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-big-text{
+   width: auto;
+   height: 84px;
+      display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.box-medium-text{
+    width: auto;
+    height: 84px;
+    /* border: 1px solid silver; */
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ }
+
+
+
+ .top-button{
+    width: auto;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ }
+
+ .register-btn{
+     border-radius:40px;
+     background-color:rgb(209, 198, 34) ;
+     color: white;
+     border:transparent;
+     padding: 3px;
+     height: 42px;
+     width: 220px;
+     font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+     font-size:20px ;
+ }
+
+ .register-btn:hover{
+    border-radius:40px;
+    background-color:rgb(209, 198, 34) ;
+    color: rgba(238, 243, 188, 0.898);
+    border:transparent;
+    padding: 3px;
+    height: 42px;
+    width: 220px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:20px ;
+    box-shadow: 3px 0.5px 6px 2px gray;
+    cursor: pointer;
+
+}
+
+
+.img-bottom{
+    width: auto;
+    height: 425px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ }
+
+ .bottom-img{
+    width:25%;
+
+ }
+
+
+
+
+
+
+
+
+
+/*=====================Products=============================================================*/
+
+
+.products-box{
+  position: absolute;
+  display:flex;
+  flex-direction: column;
+  margin-top: 100vh;
+   text-align: center;
+
+}
+
+.artist-box{
+    width: auto;
+    height: 84px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+ 
+ }
+ 
+ .artist-box-top{
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+ 
+ }
+
+
+ .artist-box-bottom{ 
+     width: 1000px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+ 
+ 
+ }
+
+/*===================================Contact/Footer===========================================*/
+
+.contact-box{
+   position: absolute;
+   display: flex;
+   height: 50vh;
+   width: 100%;
+   margin-top:200vh;
+   background-color: rgba(15, 14, 17, 0.687);
+   flex-direction: row;
+   align-items: center;
+   gap: 30px;
+
+
+   
+}
+
+.box-footer{
+    width: 300px;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-footer-row{
+    width: 300px;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:25px;
+    
+}
+
+.footer-icon{
+    width: 80%;
+}
+
+.footer-icon:hover{
+    width: 80%;
+    cursor: pointer;
+}
+
+.box-text-contact{
+    width: auto;
+    height: 84px;
+    /* border: 1px solid silver; */
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+ 
+ }
+
+ .footer-social-icon{
+     width: 14%;
+     border-radius: 100%;
+     background-color: white;
+     padding: 4px;
+     margin-bottom: 250px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .footer-social-icon:hover{
+    width: 14%;
+    border-radius: 100%;
+    background-color: rgb(209, 198, 34);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.sign{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 22%;
+    
+    
+}
+
+
+
+/*==========================Shooping Car===================================*/
+
+.nav__car{
+    backdrop-filter: blur(10px);
+    width: 25%;
+    height:75%;
+    border: 0.1px solid silver;
+    border-bottom-left-radius: 10px;
+    position:fixed;
+    margin-top: 9px;
+    right:0px ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    z-index: 100;
+     transition:transform 2s;
+     transform:translateX(110%);
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content:space-around;
+     padding: 10px;
+}
+
+.show{
+    transform:translateX(0%);
+
+}
+
+.row{
+   width: 100%;
+   height:72%;
+   /* border: 1px solid grey; */
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content:space-between ;
+
+}
+
+.col-6{
+    width:33%;
+    height: 20%;
+    /* border:1px solid gold; */
+    /* display: flex;
+    position: absolute; */
+
+}
+
+.shopping-cart-items1{
+    width: 100%;
+    height: 100%;
+    /* border:1px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.shopping-cart-image{
+    width: 37%;
+    padding: 5px;
+    
+    border-radius: 15px;
+
+}
+
+.shopping-cart-item-tittle{
+    font-size: 15px;
+    padding: 5px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgba(102, 102, 102, 0.823);
+}
+
+.col-2{
+    width:33%;
+    height: 20%;
+    /* border:1px solid gold; */
+
+
+}
+
+.shopping-cart-price{
+    width: 100%;
+    height: 100%;
+    /* border:1px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.item-price{
+    
+    font-size: 15px;
+    padding: 5px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgba(102, 102, 102, 0.823);
+}
+
+.col-4{
+    width:33%;
+    height: 20%;
+    /* border:1px solid gold; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.shopping-cart-quantity{
+    width: 100%;
+    height: 100%;
+    /* border:1px solid purple; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+
+
+.shopping-cart-quantity-input{
+    width: 35px;
+    padding: 3px;
+    text-align:right;
+    height: 12px;
+    cursor: pointer;
+    color: #666;
+
+}
+
+.btn-danger{
+    /* width: 22%;
+    height:35% ; */
+    border-radius: 85%;
+    background-color: red;
+    color:white;
+    border: none;
+    cursor:pointer;
+    
+}
+
+.btn-danger:hover{
+    /* width: 22%;
+    height:35% ; */
+    border-radius: 85%;
+    background-color: rgb(130, 12, 12);
+    color:white;
+    border: none;
+    cursor:pointer;
+    font-size: 13.5px;
+    
+}
+
+.total{
+    width: 40%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.total-tittle{
+
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+   font-size: 17px;
+   display:flex ;
+   letter-spacing:-0.5px ;
+   color: rgba(102, 102, 102, 0.483);
+    
+
+}
+
+.total-tittle2{
+
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+   font-size: 17px;
+   display:flex ;
+   letter-spacing:-0.5px ;
+   color: rgba(241, 7, 7, 0.483);
+   text-shadow: 5px 5px 3px 5px grey;
+    
+
+}
+
+
+
+
+
+/*=====================Reutilizables==============================*/
+
+.box-size1{
+    width: 100%;
+    height: 100vh;
+}
+
+.sticky{
+    position:sticky;
+}
+
+.box-artist{
+   width: 170px;
+   height: 252px;
+   border:0.5px solid rgba(142, 139, 139, 0.224);
+   border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+
+   
+
+}
+
+.box-artist:hover{
+    width: 170px;
+    height: 252px;
+    /* border:1px solid rgba(142, 139, 139, 0.224); */
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5s;
+    cursor: pointer;
+ 
+ }
+
+.box-photo-artist{
+    width: 170px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height:176px;
+    background-color:none;
+    overflow: hidden;
+}
+.box-information-artist{
+    width: 170px;
+    height: 76px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+
+
+.bck-ground-white{
+  background-color: white;
+
+}
+
+.bck-ground-gray{
+   background-color: lightgrey;
+
+
+}
+
+.bck-ground-main{
+
+    background-color: rgba(15, 14, 17, 0.687);
+}
+
+
+.text{
+   font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+   font-size: 17px;
+   display:flex ;
+   letter-spacing:-0.5px ;
+}
+
+.text-nav{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 12;
+    color: white;
+}
+
+.font-size45px{
+    font-size: 45px;
+}
+
+.font-size25px{
+    font-size: 25px;
+}
+
+.font-size15px{
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.font-size16px{
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.font-size16px:hover{
+    margin-top: 0px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.font-size11px{
+    margin-top: -15px;
+    font-size: 9px;
+    color: rgba(102, 102, 102, 0.81);
+}
+
+.color-inst{
+    color:rgb(209, 198, 34);
+}
+
+.color-gray{
+    color:rgba(102, 102, 102, 0.721);
+}
+
+.color-light-grey{
+    color:rgb(145, 144, 144);
+}
+
+.artist-photo{
+    width:105%;
+    
+}
+
+.artist-photo2{
+    width:100%;
+    
+}
+
+.artist-photo3{
+    width:98%;
+    
+}
+
+.shopping-btn{
+    border-radius:40px;
+    background-color:rgb(209, 198, 34) ;
+    color: white;
+    border:transparent;
+    padding: 1.5px;
+    height: 25px;
+    width: 110px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:10px ;
+    margin-bottom: 8px;
+}
+
+.shopping-btn:hover{
+    border-radius:40px;
+    background-color:rgb(182, 172, 26) ;
+    color: white;
+    border:transparent;
+    padding: 1.5px;
+    height: 25px;
+    width: 110px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:10px ;
+    cursor: pointer;
+}
+
+.car-main-text{
+    font-size: 35px;
+    background-color:rgba(209, 123, 10, 0.646) ;
+    border-radius:40px ;
+    padding: 10px;
+    border: 0.1px solid rgba(218, 204, 204, 0.353);
+    color:aliceblue;
+}
+
+.car-pay-text{
+    font-size: 25px;
+    background-color:rgba(233, 48, 15, 0.435) ;
+    border-radius:40px ;
+    padding: 10px;
+}
+
+.car-pay-text:hover{
+    font-size: 25px;
+    background-color:rgba(233, 48, 15, 0.435) ;
+    border-radius:40px ;
+    padding: 10px;
+    color:aliceblue;
+    cursor: pointer;
+}
+
+.precio{
+    font-size: 12px;
+}
+
+.artist{
+
+}
+
+.photo{
+
+}
